@@ -36,5 +36,5 @@ jobs:
           git config --global user.name "GitHub Action"
           git diff
           git add .
-          git commit --amend --no-edit
+          git commit --amend --no-edit --author="GitHub Action <action@github.com>"
           git push --force
